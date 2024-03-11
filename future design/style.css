@@ -1,0 +1,163 @@
+html{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.logo{
+  margin-left: 10%;
+}
+
+.navbar{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu a{
+  color: grey;
+  text-decoration: none;
+  justify-content: space-between;
+  padding-left: 30px;
+  margin-right:300px;
+  margin-left: -280px;
+  font-weight: lighter;
+  font-size: 20px;
+
+}
+
+a:hover{
+  color: #FFA089;
+  /* border-bottom-style: solid ;
+   width: fit-content; */
+}
+.row{
+  display: flex;
+}
+.box{
+  margin-top: 40px;
+  margin-left: 10%;
+}
+
+.bright{
+  width: 18%;
+  font-size: 25px;
+  margin-left: 10%;
+  margin-top: -30px;
+  font-weight: bolder;
+  word-spacing: 2px;
+}
+
+.para{
+  font-size: 18px;
+  padding-left: 80px;
+  width: 25%;
+  word-spacing: 5px;
+}
+
+button{
+  width: 40%;
+  height: 40px;
+  background-color: #FF6D49;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+button:hover{
+  background-color: #110235;
+  cursor: pointer;
+}
+
+.firstimg{
+  margin-left: 10%;
+}
+
+.secondimg{
+  margin-left: 1%;
+}
+.firstpara{
+  margin-left: 20px;
+  margin-top: -30px;
+  font-size: 20px;
+  color: grey;
+  width: 15%;
+}
+.middle{
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: -20px;
+}
+
+.middle:hover{
+  color: #FF6D49;
+  cursor: pointer;
+}
+.bottom{
+  margin-top: -15px;
+}
+
+.contenttwo{
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+.contentpara{
+  color: white;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+#new{
+  color: #FFC66D;
+}
+hr{
+  width:60%;
+  padding: 0;
+  margin: 0;
+  color: #E7E7E7;
+}
+
+.top{
+  font-weight: bolder;
+}
+
+.top:hover{
+  color: #FFC66D;
+  cursor: pointer;
+}
+.last{
+  font-weight: lighter;
+  font-size: 15px;
+  color: grey;
+  width: 60%;
+}
+.box2{
+  width:360px;
+  height: 430px;
+  background-color: #09001D;
+  margin-left: 900px;
+  margin-top: -34%;
+  margin-bottom: 40px;
+}
+
+.secondpara{
+  margin-left: 20px;
+  margin-top: -30px;
+  font-size: 20px;
+  color: grey;
+  width: 16%;
+}
